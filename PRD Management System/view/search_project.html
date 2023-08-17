@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Project</title>
+</head>
+<body>
+    <script>
+        function search(str){ 
+            if(str==""){
+            document.getElementById('message').innerHTML="Please Type Title";
+            return;
+            }
+            let xhttp=new XMLHttpRequest(); 
+            xhttp.open('post','search_project.php',true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send('name='+str);
+            xhttp.onload=function(){
+            document.getElementById('message').innerHTML=this.responseText;
+            }
+        }
+    </script>
+    <center>
+        <font face="times new roman" size="8">Search Project</font>
+        <br><br>
+        <input type="text" id="livesearch" onkeyup="search(this.value)" placeholder="Enter your Project Name" size="100px">
+        <br><br>
+    </center>
+    <font id="message" face="times new roman" size="4"></font>
+</body>
+</html>
