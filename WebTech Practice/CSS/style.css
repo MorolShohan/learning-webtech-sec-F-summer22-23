@@ -1,0 +1,51 @@
+h1{
+    color:chartreuse;
+    background-color:black;
+    text-align: center;
+    font-family: ;
+}
+#p2{
+    color:aqua;
+    border: 5px solid navy;
+    border-radius: 50 px;
+}
+
+.p1{
+    color: blue;
+    text-transform: lowercase;
+    text-indent: 5px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 10 px;
+}
+
+body{
+    background-color: black;
+    background-image: url(shohan.jpg);
+    background-position: top;
+}
+h2{
+    color:violet;
+    border-style: dotted;
+    border-color: black;
+}
+
+.shohan{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid red;
+    margin-top: 50px;
+    margin: auto;
+    padding-top: 20px;
+}
+p{
+    color: white;
+}
+h3{
+    margin: 50px;
+    color:white;
+    border: 5px solid red;
+    outline-style: solid;
+    outline-offset: 2px;
+}

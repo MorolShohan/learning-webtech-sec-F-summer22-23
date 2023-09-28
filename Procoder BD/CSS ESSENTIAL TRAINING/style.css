@@ -1,0 +1,38 @@
+/*h1{color: brown;font-size: 50px; border: 5px solid red; margin-top: 100px;}
+p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; zoom: calc();}
+#header{background-color: lightcyan; padding: 20px;}
+.body{background: greenyellow; color: #ffff; padding: 20px;}
+h1,p,#header{text-align: center;}
+.body{background: greenyellow url("photos/shohan.jpg") no-repeat center center}
+h2{background: linear-gradient(-90deg,red,green); width: 100%; height: 200px;text-align: center;text-shadow: 5px 5px 10px aqua;}
+p{text-align: justify; text-transform: uppercase; letter-spacing: 5px;}
+a{text-decoration: dotted;color: blueviolet;font-size: 100px;}
+h3{font-family: cursive; font-style: italic; font-size: 50px; font-weight: normal;text-transform: lowercase;}
+a:link{color:pink; background-color: darkorange;}
+a:visited{color:blue}
+a:hover{color:black}
+a{display:inline-block;color: lightgreen;}
+#gg{background-color: green; display:inline-block;color: black; background: aqua; padding: 15px 30px;border-radius: 50px; transition: 0.5s;}
+#gg:hover{color:white;background: tomato;}
+.wp{border: 5px solid green; padding: 15px;display: inline-block;}
+span{border: 2px solid red;padding-right: 10px;}
+li{display: inline-block;}
+div{background: lightgreen; width: 400px; height: 400px;margin-top: 50px;}
+.overflow{width: 300px; height: 300px; overflow: auto; background: aqua;}
+img{float: left; margin: 0 auto; display: block;padding: 10px;}
+ol:first-child{color: aqua;}
+ol:nth-child(2n+2){color: red;}
+.overflow::first-line{color: white;}
+body{background: url(photos/morol.jpg);}
+div.one{opacity: 0.5;}*/
+ul{margin: 0; padding: 0; list-style: none; text-align: left;}
+li{display: inline-block; margin-right: 5px; position: relative;}
+a{background: purple; color:white; padding: 10px 25px; display: block; text-decoration: none; border-radius: 5px; transition: 0.5s;}
+a:hover{background: green; }
+ul ul{position: absolute; left: 0; top: 35px; width: 200px; }
+ul ul a{border-radius: 0; background: black;}
+
+
+
+
+/* */

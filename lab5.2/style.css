@@ -1,0 +1,45 @@
+.outer-footer{
+  padding: 10 px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  /* background-color: white; */
+}
+
+.link{
+  padding: 10px;
+  text-align: right ;
+}
+
+.company{
+  font-size: large;
+  font-style: italic;
+  color: green;
+  text-align: left;
+}
+
+.login{
+text-align: center;
+}
+
+.left-margin{
+  text-align: left;
+}
+
+.right-margin{
+  text-align: middle;
+}
+
+.p1{
+  color: green;
+}
+
+.p2{
+  color: red;
+}
+
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

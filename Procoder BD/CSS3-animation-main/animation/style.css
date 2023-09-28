@@ -1,0 +1,57 @@
+#animation {
+  background: #080a3c;
+  height: 500px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/footer-shape1.png);
+  animation: imgChange 1s linear 1s infinite;
+}
+#animation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/footer-shape2.png);
+  animation: imgChangeTwo 1s linear 1s infinite;
+}
+@keyframes imgChange {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes imgChangeTwo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+label{display: block; margin-bottom: 10px; font-size: 18px;}
+input,select,textarea{width: 98%; padding: 10px 2%; border: 1px solid greenyellow; margin-bottom: 10px;}
+select{width: 94%;}
+textarea{min-height: 100px;}
+input[type="submit"]{background: aqua; border: 1px solid aqua; width: 200px; font-size: 18px;cursor: pointer;transition: 0.5s;}
+input[type="submit"]:hover{background: black; border: 1px solid black;color: white;}
+.search_form{width: 100%;max-width: 500px; margin: auto;}
+.search_form input{width: 60%; float: left;}
+.search_form input[type="submit"]{width: 35%; float: left;padding: 7px 3%;}

@@ -1,0 +1,92 @@
+.login{
+  text-align: center;
+  } 
+footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  
+  } 
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 50px;
+    padding: 10;
+  }
+  
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightskyblue;
+    box-shadow: 0 4px 6px black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: black;
+    color:whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: navy;
+  }
+
+
+
+table {
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  background-color: lightyellow;
+  color: black;
+  border: seagreen;
+  border-radius: 10px;
+} 
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+}
+
